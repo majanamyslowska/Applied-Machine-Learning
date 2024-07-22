@@ -16,3 +16,14 @@ Technical Concepts:
 - Optimization of decision tree evaluation by reducing redundant calculations through unique data point identification.
 - Detailed implementation of custom recursive functions for tree construction and querying.
 - Profiling and optimization of Python code to achieve improvements in execution time for both tree construction and evaluation.
+
+# Support Vector Machines
+The application of linear and kernel-based Support Vector Machines (SVMs) using PyTorch, a powerful machine learning framework that facilitates automatic differentiation. The projects within explore foundational concepts of machine learning, such as linear regression and classification through SVMs, both in their primal and dual forms. Emphasis is placed on practical implementation including data generation, model training, and evaluation using custom loss functions. Advanced topics covered include kernelized SVMs for non-linear data structures, visualized through a spiral dataset example, showcasing the effectiveness of different kernel functions like linear, polynomial, and RBF.
+
+Technical Concepts:
+- Implementation of machine learning algorithms using PyTorch, leveraging its automatic differentiation capabilities.
+- Exploration of SVMs, including both linear SVM and kernel SVM, to handle linearly separable and non-linearly separable data.
+- Use of various kernel functions to transform data into high-dimensional spaces where linear separation is possible.
+- Detailed training procedures including gradient descent optimization and regularization to prevent overfitting.
+- Evaluation of model performance using generated datasets and visualizations to understand decision boundaries.
+- Advanced data handling techniques within PyTorch, including parameter tuning and optimization strategies to enhance model performance.
